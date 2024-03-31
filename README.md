@@ -22,7 +22,5 @@ Components:-  Utilizes AWS Lambda function to automate the identification and de
 
 # Workflow Summary:
 1.Trigger: The Lambda function can be triggered periodically using a scheduled event (e.g., CloudWatch Events) to ensure regular identification and deletion of stale snapshots.
-
 2. Execution: Upon trigger, the Lambda function executes its logic to identify stale EBS snapshots and delete them accordingly.
-
 3. Logging and Monitoring: Logging and monitoring mechanisms (e.g., CloudWatch Logs, CloudWatch Metrics) can be implemented to track the execution of the Lambda function and any potential errors encountered during the process.
